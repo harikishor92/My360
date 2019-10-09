@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Aroha Analytical Plateform]">
+  <listeners>
+    <listener class-name="com.aap.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="AAP Regrassion Test Case(failed)">
+    <classes>
+      <class name="com.aap.qa.testcase.WelcomePageTest">
+        <methods>
+          <include name="WelcomePageTitleTest"/>
+          <include name="WelcomePageLogoTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.aap.qa.testcase.WelcomePageTest -->
+      <class name="com.aap.qa.testcase.SignUpPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="SignUpPageHeaderTest"/>
+          <include name="SignUpPageLOGOTest"/>
+          <include name="SignUpPageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.aap.qa.testcase.SignUpPageTest -->
+      <class name="com.aap.qa.testcase.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.aap.qa.testcase.HomePageTest -->
+      <class name="com.aap.qa.testcase.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="loginPageTitleTest"/>
+          <include name="aapLogoImageTest"/>
+        </methods>
+      </class> <!-- com.aap.qa.testcase.LoginPageTest -->
+    </classes>
+  </test> <!-- AAP Regrassion Test Case(failed) -->
+</suite> <!-- Failed suite [Aroha Analytical Plateform] -->

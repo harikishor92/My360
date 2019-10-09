@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Aroha Analatical Plateform Application Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.aap.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Aroha Analatical Plateform App Test Cases(failed)">
+    <classes>
+      <class name="com.aap.qa.testcase.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.aap.qa.testcase.LoginPageTest -->
+    </classes>
+  </test> <!-- Aroha Analatical Plateform App Test Cases(failed) -->
+</suite> <!-- Failed suite [Aroha Analatical Plateform Application Automation Test Suite] -->

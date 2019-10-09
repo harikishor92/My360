@@ -1,0 +1,13 @@
+#url = https://dev.my360.ai/
+url = http://uat.my360.ai/
+#url = http://mykpi.aroha.co.in/
+
+
+username = harikishor.kg@gmail.com
+password = arohaaroha
+
+browser = chrome
+#Report = AAPReport
+
+#PAGE_LOAD_TIMEOUT = 20
+#IMPLICIT_WAIT =10

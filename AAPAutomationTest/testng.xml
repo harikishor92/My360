@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Aroha Analytical Plateform">
+
+	<listeners>
+		<listener class-name="com.aap.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test thread-count="5" name="AAP Regrassion Test Case">
+		<classes>
+			<class name="com.aap.qa.testcase.LoginPageTest" />
+			<class name="com.aap.qa.testcase.SignUpPageTest" />
+			<class name="com.aap.qa.testcase.WelcomePageTest" />
+			<class name="com.aap.qa.testcase.HomePageTest" />
+		</classes>
+	</test> <!-- AAP Regrassion Test Case -->
+</suite> <!-- Aroha Analytical Plateform -->
