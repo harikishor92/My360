@@ -17,7 +17,6 @@ import com.aap.qa.Util.WebEventListener;
 public class TestBase {
 
 	public static WebDriver driver;
-	//fghj
 	public static Properties prop;
 	public  static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
