@@ -10,8 +10,8 @@
 	<test name="Aroha Analatical Plateform App Test Cases">
 		<classes>
 		    <class name="com.aap.qa.testcase.WelcomePageTest"></class>
-			<class name="com.aap.qa.testcase.LoginPageTest"></class>
-			<class name="com.aap.qa.testcase.HomePageTest"></class>
+			<!-- <class name="com.aap.qa.testcase.LoginPageTest"></class>
+			<class name="com.aap.qa.testcase.HomePageTest"></class> -->
 
 		</classes>
 	</test>
